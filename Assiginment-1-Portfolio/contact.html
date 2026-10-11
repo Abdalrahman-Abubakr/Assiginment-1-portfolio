@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Me | Abdulrahman Abubakr</title>
+
+    <link rel="stylesheet" href="css/base.css">
+
+    <link rel="stylesheet" href="css/mobile.css"
+          media="screen and (max-width: 600px)">
+
+    <link rel="stylesheet" href="css/tablet.css"
+          media="screen and (min-width: 601px) and (max-width: 1024px)">
+
+    <link rel="stylesheet" href="css/laptop.css"
+          media="screen and (min-width: 1025px)">
+</head>
+
+<body>
+
+    <header>
+        <a class="site-name" href="index.html">
+            Abdulrahman Abubakr
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" aria-current="page">Contact Me</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section class="contact-intro">
+            <p class="intro-label">LET'S CONNECT</p>
+
+            <h1>Contact Me</h1>
+
+            <p>
+                Have a question about my projects or want to get in
+                touch? Fill out the form below.
+            </p>
+        </section>
+
+        <section class="contact-section">
+
+            <h2>Send Me a Message</h2>
+
+            <form action="#" method="get">
+
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           required
+                           minlength="2"
+                           maxlength="100"
+                           placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email"
+                        id="email"
+                        name="email"
+                        required
+                        pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"
+                        title="Please enter a complete email address including a domain extension like .com or .edu (e.g., name@example.com)"
+                        placeholder="you@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Cellphone Number</label>
+                    <input type="tel"
+                        id="phone"
+                        name="phone"
+                        required
+                        pattern="[0-9]{10,15}"
+                        title="Please enter only digits (10 to 15 numbers)."
+                        placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Comments</label>
+
+                    <textarea id="comments"
+                              name="comments"
+                              rows="6"
+                              required
+                              minlength="5"
+                              maxlength="1000"
+                              placeholder="Write your message here"></textarea>
+                </div>
+
+                <button type="submit" class="form-button">
+                    Submit Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Contact:
+            <a href="mailto:rahmoon562004@gmail.com">
+                rahmoon562004@gmail.com
+            </a>
+        </p>
+
+        <p>
+            &copy; 2026 Abdulrahman Abubakr. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>

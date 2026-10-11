@@ -1,0 +1,83 @@
+/* Mobile: screens up to 600px */
+
+body {
+    font-size: 15px;
+}
+
+header {
+    padding: 14px 5%;
+}
+
+nav a {
+    padding: 7px 8px;
+    margin-right: 2px;
+}
+
+main {
+    width: 92%;
+    margin: 24px auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.hero {
+    padding: 28px 5%;
+}
+
+/* Stack content on narrow screens */
+
+.feature-card {
+    display: block;
+    width: 100%;
+    min-height: 0;
+    margin-right: 0;
+}
+
+.interests,
+.next-step {
+    margin-top: 30px;
+}
+
+/* About Me page on mobile */
+
+.about-photo,
+.about-text {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+}
+
+.about-photo {
+    margin-bottom: 25px;
+}
+
+.about-photo img {
+    max-width: 280px;
+}
+
+.about-video {
+    padding: 18px;
+}
+
+/* Projects page on mobile */
+
+.project-card {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+    margin-right: 0;
+}
+
+.projects-next-step {
+    padding: 18px;
+}
+
+/* Contact page on mobile */
+
+.contact-section {
+    padding: 20px;
+}
